@@ -7,6 +7,8 @@ const router = Router();
 router.use(Express.json());
 router.use(Express.urlencoded({ extended: true }));
 
+// Nova Feat
+
 // ----- ROTAS ------
 router.get("/", (req: Request, res: Response) => {
   res.sendFile(path.join(__dirname, "../../public", "index.html"));
