@@ -6,6 +6,6 @@ dotenv.config({ path: ".env" });
 
 const app = Express();
 
-app.use(routerr);
+app.use(router);
 
 export { app };
