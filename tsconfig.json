@@ -8,8 +8,9 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "sourceMap": true,
-    "declaration": false
+    "declaration": false,
+    "types": ["jest"]
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "src/__tests__/*", "**/*.test.ts"],
   "exclude": ["node_modules", "**/*.spec.ts"]
 }
