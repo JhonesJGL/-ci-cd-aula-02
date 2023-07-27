@@ -11,6 +11,6 @@
     "declaration": false,
     "types": ["jest"]
   },
-  "include": ["src/**/*", "__tests__/*", "**/*.test.ts"],
+  "include": ["src/**/*", "src/__tests__/*", "**/*.test.ts"],
   "exclude": ["node_modules", "**/*.spec.ts"]
 }
